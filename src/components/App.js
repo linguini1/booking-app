@@ -38,7 +38,6 @@ function App() {
                 value={date}
                 onChange={(newDate) => {setDate(newDate);}}
                 renderInput={(params) => <TextField {...params} />}
-                minTime={new Date()}
                 orientation="portrait"
             />
           </div>

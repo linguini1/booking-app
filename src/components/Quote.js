@@ -9,8 +9,6 @@ export default function Quote(props) {
         const endDate = new Date(date.getTime() + hours * 3600000);
 
         if (date.getDay() === endDate.getDay()) { // Start and end of booking fall on the same day
-
-            console.log("same");
             
             if (date.getDay() === 6 || date.getDay() === 0) {  // Day is a weekend
                 return weekendPrice * hours
