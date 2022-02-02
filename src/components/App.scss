@@ -1,0 +1,48 @@
+// Colours
+$primary: #eeeeee;
+$accent: #406b3e;
+$darkShadow: rgba(0, 0, 0, 0.3);
+$lightShadow: rgba(255, 255, 255, 0.6);
+
+.title {
+    font-size: 8em;
+    margin-bottom: 0.5em;
+}
+
+.selector-container {
+    display: flex;
+    flex-direction: column;
+    color: #406b3e;
+    text-align: left;
+
+    h2 {
+        font-size: 3em;
+        padding-left: 1em;
+        padding-bottom: 30px;
+        font-weight: 400;
+    }
+
+}
+
+.time-wrapper {
+    margin-top: 4em;
+}
+
+.MuiFormControl-root {
+    width: 100%;
+    height: 100%;
+    box-shadow: 9px 9px 20px $darkShadow,
+    -9px -9px 20px $lightShadow;
+    border-radius: 3em;
+
+    div {
+        border-radius: inherit;
+        height: inherit;
+        font-size: 3.2em;
+        font-family: 'Montserrat';
+        font-weight: 300;
+        color: $accent;
+        padding: 0.5em;
+    }
+
+}

@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAIA,AAAA,MAAM,CAAC;EACH,aAAa,EAAE,GAAG;EAClB,OAAO,EAAE,GAAG;EACZ,UAAU,EAAE,GAAG;CAUlB;;AAbD,AAKI,MALE,CAKF,EAAE,CAAC;EACC,SAAS,EAAE,IAAI;CAClB;;AAPL,AASI,MATE,CASF,EAAE,CAAC;EACC,SAAS,EAAE,KAAK;EAChB,WAAW,EAAE,GAAG;CACnB",
+    "sources": [
+        "Quote.scss"
+    ],
+    "names": [],
+    "file": "Quote.css"
+}

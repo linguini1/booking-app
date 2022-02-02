@@ -1,0 +1,49 @@
+// Colours
+$primary: #eeeeee;
+$accent: #406b3e;
+
+.counter {
+    margin-top: 4em;
+    text-align: left;
+
+    .counter-title {
+        font-weight: 400;
+        font-size: 3em;
+        padding-left: 1em;
+        padding-bottom: 30px;
+    }
+
+}
+
+.tool {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+
+    .plus, .minus {
+        padding: 2em;
+        border-radius: 40em;
+        height: 80px;
+        width: 80px;
+        text-align: center;
+
+        h2 {
+            font-size: 4.2em;
+        }
+    }
+
+    .hours {
+        padding: 1em;
+        width: 40%;
+        border-radius: 3em;
+
+        h2 {
+            font-size: 6em;
+            margin: 0;
+            font-weight: 400;
+        }
+    }
+
+}

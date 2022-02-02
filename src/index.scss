@@ -1,0 +1,49 @@
+// Colours
+$primary: #eeeeee;
+$accent: #406b3e;
+$darkShadow: rgba(0, 0, 0, 0.3);
+$lightShadow: rgba(255, 255, 255, 0.6);
+
+// Fonts
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap');
+
+
+// Resets
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat';
+}
+
+html, body {
+    background-color: $primary;
+    color: $accent;
+}
+
+html {
+    width: 100vw;
+    height: 100vh;
+}
+
+// Basic styles
+body {
+    padding: 10em 5em 5em;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+#root {
+    width: 100%;
+}
+
+.text-shadow {
+    text-shadow: 0px 3px 10px $darkShadow,
+    0px -3px 10px $lightShadow;
+}
+
+.ui-shadow {
+    box-shadow: 9px 9px 20px $darkShadow,
+    -9px -9px 20px $lightShadow;
+}
