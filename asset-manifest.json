@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/booking-app/static/css/main.7ab9d4d5.css",
-    "main.js": "/booking-app/static/js/main.40ecef21.js",
+    "main.js": "/booking-app/static/js/main.a8eaa8e7.js",
     "index.html": "/booking-app/index.html",
     "main.7ab9d4d5.css.map": "/booking-app/static/css/main.7ab9d4d5.css.map",
-    "main.40ecef21.js.map": "/booking-app/static/js/main.40ecef21.js.map"
+    "main.a8eaa8e7.js.map": "/booking-app/static/js/main.a8eaa8e7.js.map"
   },
   "entrypoints": [
     "static/css/main.7ab9d4d5.css",
-    "static/js/main.40ecef21.js"
+    "static/js/main.a8eaa8e7.js"
   ]
 }
